@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_helium.mk
+    $(LOCAL_DIR)/havoc_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_helium-user \
-    xtended_helium-userdebug \
-    xtended_helium-eng
+    havoc_helium-user \
+    havoc_helium-userdebug \
+    havoc_helium-eng
