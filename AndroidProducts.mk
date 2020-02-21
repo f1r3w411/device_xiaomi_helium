@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_helium.mk
+    $(LOCAL_DIR)/aosp_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_helium-user \
-    du_helium-userdebug \
-    du_helium-eng
+    aosp_helium-user \
+    aosp_helium-userdebug \
+    aosp_helium-eng
