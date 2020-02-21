@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_helium.mk
+    $(LOCAL_DIR)/derp_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_helium-user \
-    aosp_helium-userdebug \
-    aosp_helium-eng
+    derp_helium-user \
+    derp_helium-userdebug \
+    derp_helium-eng
