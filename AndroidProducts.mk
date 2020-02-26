@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_helium.mk
+    $(LOCAL_DIR)/superior_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_helium-user \
-    derp_helium-userdebug \
-    derp_helium-eng
+    superior_helium-user \
+    superior_helium-userdebug \
+    superior_helium-eng
