@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_helium.mk
+    $(LOCAL_DIR)/pixys_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_helium-user \
-    derp_helium-userdebug \
-    derp_helium-eng
+    pixys_helium-user \
+    pixys_helium-userdebug \
+    pixys_helium-eng
