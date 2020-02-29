@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_helium.mk
+    $(LOCAL_DIR)/lotus_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_helium-user \
-    derp_helium-userdebug \
-    derp_helium-eng
+    lotus_helium-user \
+    lotus_helium-userdebug \
+    lotus_helium-eng
