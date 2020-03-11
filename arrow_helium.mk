@@ -28,13 +28,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := helium
-PRODUCT_NAME := bliss_helium
+PRODUCT_NAME := arrow_helium
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Max
 TARGET_VENDOR := Xiaomi
