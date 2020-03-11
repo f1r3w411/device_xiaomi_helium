@@ -16,9 +16,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_helium.mk
+    $(LOCAL_DIR)/arrow_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_helium-user \
-    bliss_helium-userdebug \
-    bliss_helium-eng
+    arrow_helium-userdebug \
+    arrow_helium-eng
