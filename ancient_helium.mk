@@ -41,3 +41,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="helium-user 7.0 NRD90M V10.2.2.0.NBDMIXM release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/helium/helium:7.0/NRD90M/V10.2.2.0.NBDMIXM:user/release-keys
+
+#Official
+#ANCIENT_BUILD_TYPE := PRIMEVAL
+
+#Unofficial
+ANCIENT_BUILD_TYPE := PREHISTORIC
