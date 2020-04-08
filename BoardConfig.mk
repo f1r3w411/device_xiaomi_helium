@@ -32,6 +32,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 26705099776 # 26705116160 - 16384
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_helium_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8956
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
