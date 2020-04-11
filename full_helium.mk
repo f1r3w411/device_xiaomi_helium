@@ -15,11 +15,16 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_helium.mk \
-    $(LOCAL_DIR)/full_helium.mk
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-COMMON_LUNCH_CHOICES := \
-    du_helium-user \
-    du_helium-userdebug \
-    du_helium-eng
+# Inherit from helium device
+$(call inherit-product, device/xiaomi/helium/device.mk)
+
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := helium
+PRODUCT_NAME := full_helium
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := helium
+PRODUCT_MANUFACTURER := Xiaomi
