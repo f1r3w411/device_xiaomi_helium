@@ -34,6 +34,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Max
 TARGET_VENDOR := Xiaomi
 
+# Havoc build type
+# HAVOC_BUILD_TYPE := Official
+ro.havoc.maintainer := _firewall_
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Use the latest approved GMS identifiers unless running a signed build
