@@ -1,5 +1,3 @@
-product/lib64/libaptXHD_encoder.so
-product/lib64/libaptX_encoder.so
 etc/modem/Diag.cfg
 etc/face_ravishing_238_224
 etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb

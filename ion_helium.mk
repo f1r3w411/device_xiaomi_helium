@@ -15,12 +15,7 @@
 # limitations under the License.
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Inherit from helium device
-$(call inherit-product, device/xiaomi/helium/device.mk)
+$(call inherit-product, device/xiaomi/helium/full_helium.mk)
 
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
@@ -43,6 +38,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Use the latest approved GMS identifiers unless running a signed build
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="helium-user 6.0.1 MMB29M V8.2.3.0.MBCCNDL release-keys"
+    PRIVATE_BUILD_DESC="helium-user 7.0 NRD90M V10.2.2.0.NBDMIXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/helium/helium:6.0.1/MMB29M/V8.2.3.0.MBCCNDL:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/helium/helium:7.0/NRD90M/V10.2.2.0.NBDMIXM:user/release-keys

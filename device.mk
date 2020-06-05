@@ -51,7 +51,12 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.helium.rc \
-    init.qcom.post_boot.sh
+    init.qcom.post_boot.sh \
+    init.qcom.rc
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service
 
 # Wifi
 PRODUCT_COPY_FILES += \
