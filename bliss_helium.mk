@@ -37,7 +37,7 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 #Bliss Maintainer
-export BLISS_DEVELOPER=Magicxavi
+export BLISS_DEVELOPER=_firewall_
 
 # Use the latest approved GMS identifiers unless running a signed build
 PRODUCT_BUILD_PROP_OVERRIDES += \
