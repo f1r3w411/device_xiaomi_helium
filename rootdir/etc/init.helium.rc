@@ -51,5 +51,5 @@ on property:init.svc.zygote=restarting
     stop displayfeature
 
 # FPS Info
-    chown system graphics /sys/class/graphics/fb0/measured_fps
-    chmod 0666 /sys/class/graphics/fb0/measured_fps
+    chown system graphics /sys/class/graphics/fb0/dynamic_fps
+    chmod 0666 /sys/class/graphics/fb0/dynamic_fps
