@@ -36,7 +36,7 @@ TARGET_VENDOR := Xiaomi
 
 # Havoc build type
 # HAVOC_BUILD_TYPE := Official
-ro.havoc.maintainer := _firewall_
+ro.havoc.maintainer := 🔥firewall🔥
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
