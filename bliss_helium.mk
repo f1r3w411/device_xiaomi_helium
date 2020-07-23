@@ -38,6 +38,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 #Bliss Maintainer
 export BLISS_DEVELOPER=🔥firewall🔥
+export BLISS_MAINTAINER=🔥firewall🔥
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bliss.maintainer=🔥firewall🔥
 
