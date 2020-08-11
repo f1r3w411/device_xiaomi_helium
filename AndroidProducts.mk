@@ -16,10 +16,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_helium.mk \
+    $(LOCAL_DIR)/rr_helium.mk \
     $(LOCAL_DIR)/full_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_helium-user \
-    xtended_helium-userdebug \
-    xtended_helium-eng
+    rr_helium-user \
+    rr_helium-userdebug \
+    rr_helium-eng
