@@ -23,24 +23,18 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := helium
-PRODUCT_NAME := bliss_helium
+PRODUCT_NAME := lineage_helium
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Max
 TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-#Bliss Maintainer
-export BLISS_DEVELOPER=🔥firewall🔥
-export BLISS_MAINTAINER=🔥firewall🔥
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bliss.maintainer=🔥firewall🔥
 
 # Use the latest approved GMS identifiers unless running a signed build
 PRODUCT_BUILD_PROP_OVERRIDES += \
