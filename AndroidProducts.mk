@@ -16,10 +16,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_helium.mk \
+    $(LOCAL_DIR)/lineage_helium.mk \
     $(LOCAL_DIR)/full_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_helium-user \
-    bliss_helium-userdebug \
-    bliss_helium-eng
+    lineage_helium-user \
+    lineage_helium-userdebug \
+    lineage_helium-eng
