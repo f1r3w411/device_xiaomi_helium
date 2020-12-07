@@ -16,10 +16,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_helium.mk \
+    $(LOCAL_DIR)/aicp_helium.mk \
     $(LOCAL_DIR)/full_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_helium-user \
-    lineage_helium-userdebug \
-    lineage_helium-eng
+    aicp_helium-user \
+    aicp_helium-userdebug \
+    aicp_helium-eng
