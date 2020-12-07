@@ -23,7 +23,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
