@@ -45,3 +45,5 @@ persist.data.df.dev_name=rmnet_usb0
 # Fingerprint
 ro.hardware.fingerprint=fpc
 
+# Vendor security patch value
+ro.vendor.build.security_patch=2021-02-05
