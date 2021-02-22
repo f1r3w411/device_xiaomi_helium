@@ -16,10 +16,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_helium.mk \
+    $(LOCAL_DIR)/nad_helium.mk \
     $(LOCAL_DIR)/full_helium.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_helium-user \
-    rr_helium-userdebug \
-    rr_helium-eng
+    nad_helium-user \
+    nad_helium-userdebug \
+    nad_helium-eng
