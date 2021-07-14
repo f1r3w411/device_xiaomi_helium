@@ -50,4 +50,4 @@ BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 -include vendor/xiaomi/helium/BoardConfigVendor.mk
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2021-06-05
+VENDOR_SECURITY_PATCH := 2021-07-05
